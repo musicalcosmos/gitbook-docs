@@ -29,8 +29,8 @@ Bomb Money’s multi-token protocol currently consists of the following four tok
   2. DEV Allocation: 2500 TSHARE vested linearly over 12 months&#x20;
   3. Remaining 59500 TSHARE are allocated for incentivizing Liquidity Providers in two shares pools for 12 months
 
-![](.gitbook/assets/KSHARE.png)
+![KSHARE - Kshare Token](.gitbook/assets/KSHARE.png)
 
 * **KDOLLAR** Bonds (**KBOND**) main job is to help incentivize changes in **KDOLLAR** supply during an epoch contraction period. When the **TWAP** (Time Weighted Average Price) of **KDOLLAR** falls below 1 **KRONOS**, **KBOND**s are issued and can be bought with **KDOLLAR** at the current price. Exchanging **KDOLLAR** for **KBOND** burns **KDOLLAR** tokens, taking them out of circulation (deflation) and helping to get the price back up to 1 **KRONOS**. These **KBOND** can be redeemed for **KDOLLAR** when the price is above peg in the future, plus an extra incentive for the longer they are held above peg. This amounts to inflation and sell pressure for **KDOLLAR** when it is above peg, helping to push it back toward 1 **KRONOS**.
 
-![](.gitbook/assets/KBOND.png)
+![KDOND - Kbond Token](.gitbook/assets/KBOND.png)
