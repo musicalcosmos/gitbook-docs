@@ -1,15 +1,15 @@
 # Table of contents
 
-* [bomb.money Home](https://app.bomb.money)
+* [KronosBoard Home](https://board.kronosdao.ai)
 
-## 💣 Welcome / Start Here
+## 🎃 Welcome
 
-* [Introduction](README.md)
-* [Getting Started](welcome-start-here/faq-getting-started/README.md)
-  * [Getting Funds to Binance Smart Chain (BSC)](welcome-start-here/faq-getting-started/getting-funds-to-binance-smart-chain-bsc.md)
-  * [How to Buy BOMB](welcome-start-here/faq-getting-started/how-to-buy-bomb.md)
-* [Strategies](welcome-start-here/strategies.md)
-* [Autocompounding Vaults](welcome-start-here/autocompounding-vaults.md)
+* [Home](README.md)
+* [Getting Started](welcome/faq-getting-started/README.md)
+  * [Getting Funds to Binance Smart Chain (BSC)](welcome/faq-getting-started/getting-funds-to-binance-smart-chain-bsc.md)
+  * [How to Buy BOMB](welcome/faq-getting-started/how-to-buy-bomb.md)
+* [Strategies](welcome/strategies.md)
+* [Autocompounding Vaults](welcome/autocompounding-vaults.md)
 
 ## 💣 Strategies
 
@@ -26,8 +26,6 @@
 * [Farms](protocol/farms.md)
 * [xBOMB - BOMB Staking](protocol/xbomb-bomb-staking.md)
 * [Roadmap](protocol/roadmap.md)
-* [Treasury Transactions](protocol/treasury-transactions.md)
-* [Ledger, xBOMB Collateral workaround](protocol/ledger-xbomb-collateral-workaround.md)
 * [Other Protocol Contract Addresses](protocol/other-protocol-contract-addresses.md)
 
 ## 💣 Helpful Guides

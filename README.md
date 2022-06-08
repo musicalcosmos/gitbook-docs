@@ -1,41 +1,37 @@
-# Introduction
+---
+description: >-
+  Welcome to KronosBoard, home to the algorithmic token pegged to $KRONOS on the
+  BSC network.
+---
 
-Welcome to Bomb Money! If this is your first time here, please take some time to read through this documentation before you begin using the protocol. This documentation is intended to take you through the entire process of how to get started using Bomb Money to earn stable, high yields that are only possible through the power of DeFi, but with the stability and security of exposure to Bitcoin, the world's largest and most stable crypto asset. Let's dive in!
+# Home
 
-## Origins
+Welcome to KronosBoard! If this is your first time here, please take some time to read through this documentation before you begin using the protocol. This documentation is intended to take you through the entire process of how to get started using KronosBoard to earn stable, high yields that are only possible through the power of DeFi. Let's dive in!
 
-Bomb Money is based upon the work of the brilliant **tomb.finance** project on the Fantom network. At the time, it was hard to believe that nothing similar existed on any other larger networks, so it was a great opportunity to bring an amazingly stable and robust DeFi protocol like **tomb.finance** with a few unique twists to the masses. As far as networks go, Binance Smart Chain (BSC) seemed like the perfect choice with its fast transaction speeds, low gas fees, and much larger user base, so one thing led to another and now here we are!\
-\
-This project would certainly not be possible without the work of the [tomb.finance](https://tomb.finance) team. Their project being fully open source and developed exceptionally well made it a pleasure to work with, and we would not be here today without their efforts, so we want to give a special thank you to them for that.
+## Why KronosBoard
 
-{% hint style="info" %}
-Bomb Money was launched on November 23, 2021. The rest is history!&#x20;
-{% endhint %}
-
-## What's the point?
-
-Ultimately, the purpose of the Bomb Money protocol is to provide the means for its underlying BOMB asset to maintain a value that is algorithmically pegged to the value to Bitcoin (BTC) at a 10,000 to 1 ratio.
-
-So, what good is that? We will explore this idea further throughout this documentation, but for now without getting _too_ technical, this opens up a world of possibilities for existing, long-time Bitcoin holders, people already familiar with DeFi, as well as new users just coming into the space.
-
-Bitcoin transactions are slow and expensive. There are not nearly as many attractive yield earning opportunities in DeFi for people to put their precious Bitcoin to work for them. BOMB, through the Bomb Money protocol, can solve many of these problems and more, generating immense value for our users in the process.
-
-As the Bomb Money ecosystem grows over time, the potential future applications are quite literally endless. And, as you proceed through this documentation and learn more about how the Bomb Money protocol works, we will explore some of that potential in more detail.
+KronosBoard is based upon the work of the brilliant tomb.finance project. Pegging price to the KRONOS will be cause of keeping high KRONOS price.
 
 {% hint style="info" %}
-BOMB is the native token of the Bomb Money protocol. The built-in stability mechanisms within the protocol aim to maintain BOMB's peg of 10,000 BOMB = 1 Bitcoin (BTC) in the long run.
+KronosBoard will launch on .....!
 {% endhint %}
 
-## What are the Bomb Money protocol tokens?&#x20;
+## What are the KronosBoard protocol tokens?
 
 Bomb Money’s multi-token protocol currently consists of the following four tokens, and each plays a critical role in how the protocol works to maintain peg:
 
-1. **BOMB Tokens ($BOMB)** - The BOMB token is designed for use as a medium of exchange, and is intended to have many other use cases as the Bomb Money ecosystem grows. BOMB is algorithmically pegged to Bitcoin (BTC) at a ratio of 10,000 BOMB to 1 BTC.
-2. ****[**xBOMB Tokens ($XBOMB)**](protocol/xbomb-bomb-staking.md) - xBOMB is the governance token of BOMB Protocol. It can be obtained by staking BOMB. This helps to keep BOMB supply limited while providing another means of earning yield for BOMB holders, among other planned use cases.
-3. **BOMB Shares ($BSHARE)** - BSHARE can be staked in the [Boardroom](protocol/boardroom.md) to earn a portion of minted BOMB as rewards to those BSHARE holders for investing in the health and stability of the protocol.
-4. ****[**BOMB Bonds ($BBOND)**](protocol/bonds-mechanism.md) - BBOND’s main job is to help incentivize and reward users for helping to regain peg during times of supply contraction below peg.
+* **KDOLLAR** Tokens ($**KDOLLAR**) - The **KDOLLAR** token is designed for use as a medium of exchange. The built-in stability mechanism in the protocol aims to maintain **KDOLLAR**'s peg to 1 **KRONOS** in the long run.
 
-## How does it work?
+![KDOLLAR - Kdollar Token](.gitbook/assets/KDOLLAR.png)
+
+* **KDOLLAR Shares ($KSHARE)** - **KDOLLAR** Shares (**KSHARE**) are one of the ways to measure the value of the **KDOLLAR** Protocol and shareholder trust in its ability to maintain **KDOLLAR** close to peg. During epoch expansions the protocol mints **KDOLLAR** and distributes it proportionally to all **KSHARE** holders who have staked their tokens in the Boardroom (Masonry ). **KSHARE** has a maximum total supply of 70000 tokens distributed as follows:&#x20;
+  1. Team Allocation: 7000 KSHARE vested linearly 12 months&#x20;
+  2. DEV Allocation: 2500 TSHARE vested linearly over 12 months&#x20;
+  3. Remaining 59500 TSHARE are allocated for incentivizing Liquidity Providers in two shares pools for 12 months
+
+![](.gitbook/assets/KSHARE.png)
+
+* **KDOLLAR** Bonds (**KBOND**) main job is to help incentivize changes in **KDOLLAR** supply during an epoch contraction period. When the **TWAP** (Time Weighted Average Price) of **KDOLLAR** falls below 1 **KRONOS**, **KBOND**s are issued and can be bought with **KDOLLAR** at the current price. Exchanging **KDOLLAR** for **KBOND** burns **KDOLLAR** tokens, taking them out of circulation (deflation) and helping to get the price back up to 1 **KRONOS**. These **KBOND** can be redeemed for **KDOLLAR** when the price is above peg in the future, plus an extra incentive for the longer they are held above peg. This amounts to inflation and sell pressure for **KDOLLAR** when it is above peg, helping to push it back toward 1 **KRONOS**.
 
 The Bomb Money protocol works through a synergistic design of unique tokens and mechanisms that create an automatic, self-reinforcing system to help maintain the peg (10,000 BOMB = 1 Bitcoin). Each of these tokens and mechanisms will be explained in further detail within this documentation, but for now let's have a look at a brief overview of how it all works:
 
@@ -49,7 +45,7 @@ There are so many different ways you can utilize the mechanisms of the Bomb Mone
 
 ## What exactly is the peg?
 
-BOMB is a token that is intended to track the price of Bitcoin (BTC) algorithmically. The ratio for this peg is set at 10,000 BOMB to 1 BTC. BOMB **actively tracks this peg via an algorithm**, but that **does not mean** it will be valued at 10,000 BOMB to 1 BTC at all times as **it is not collateralized**. **BOMB is not to be confused for a crypto or fiat-backed stablecoin.**&#x20;
+BOMB is a token that is intended to track the price of Bitcoin (BTC) algorithmically. The ratio for this peg is set at 10,000 BOMB to 1 BTC. BOMB **actively tracks this peg via an algorithm**, but that **does not mean** it will be valued at 10,000 BOMB to 1 BTC at all times as **it is not collateralized**. **BOMB is not to be confused for a crypto or fiat-backed stablecoin.**
 
 The entire design of the Bomb Money protocol is intended to try and maintain this peg as closely as possible, but as it is an algorithmic peg, this will never be a completely stable process. In fact, some of the unique profit-generating opportunities offered by the protocol actually only exist because of these price fluctuations.
 
