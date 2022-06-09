@@ -11,6 +11,7 @@
 
 ## Protocol
 
+* [Genesis Pool (First 24hrs)](protocol/genesis-pool-first-24hrs.md)
 * [Platform](strategies/general-quick-roi-strategy.md)
 * [Bond Mechanism](protocol/bond-mechanism.md)
 * [Contracts](protocol/contracts.md)
