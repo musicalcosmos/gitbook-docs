@@ -10,17 +10,17 @@ Welcome to KronosBoard! If this is your first time here, please take some time t
 
 ## Why KronosBoard
 
-KronosBoard is based upon the work of the brilliant tomb.finance project. Pegging price to the KRONOS will be cause of keeping high KRONOS price.
+KronosBoard is based upon the work of the brilliant tomb.finance project. 
 
 {% hint style="info" %}
-KronosBoard will launch on .....!
+KronosBoard will launch on 6-24-22!
 {% endhint %}
 
 ## What are the KronosBoard protocol tokens?
 
 Bomb Money’s multi-token protocol currently consists of the following four tokens, and each plays a critical role in how the protocol works to maintain peg:
 
-* **KDOLLAR** Tokens ($**KDOLLAR**) - The **KDOLLAR** token is designed for use as a medium of exchange. The built-in stability mechanism in the protocol aims to maintain **KDOLLAR**'s peg to 1 **KRONOS** in the long run.
+* **KDOLLAR** Tokens ($**KDOLLAR**) - The **KDOLLAR** token is designed for use as a medium of exchange. The built-in stability mechanism in the protocol aims to maintain **KDOLLAR**'s peg to 1 **BUSD** in the long run.
 
 ![KDOLLAR - Kdollar Token](.gitbook/assets/KDOLLAR.png)
 
@@ -31,6 +31,6 @@ Bomb Money’s multi-token protocol currently consists of the following four tok
 
 ![KSHARE - Kshare Token](.gitbook/assets/KSHARE.png)
 
-* **KDOLLAR** Bonds (**KBOND**) main job is to help incentivize changes in **KDOLLAR** supply during an epoch contraction period. When the **TWAP** (Time Weighted Average Price) of **KDOLLAR** falls below 1 **KRONOS**, **KBOND**s are issued and can be bought with **KDOLLAR** at the current price. Exchanging **KDOLLAR** for **KBOND** burns **KDOLLAR** tokens, taking them out of circulation (deflation) and helping to get the price back up to 1 **KRONOS**. These **KBOND** can be redeemed for **KDOLLAR** when the price is above peg in the future, plus an extra incentive for the longer they are held above peg. This amounts to inflation and sell pressure for **KDOLLAR** when it is above peg, helping to push it back toward 1 **KRONOS**.
+* **KDOLLAR** Bonds (**KBOND**) main job is to help incentivize changes in **KDOLLAR** supply during an epoch contraction period. When the **TWAP** (Time Weighted Average Price) of **KDOLLAR** falls below 1 **BUSD**, **KBOND**s are issued and can be bought with **KDOLLAR** at the current price. Exchanging **KDOLLAR** for **KBOND** burns **KDOLLAR** tokens, taking them out of circulation (deflation) and helping to get the price back up to 1 **BUSD**. These **KBOND** can be redeemed for **KDOLLAR** when the price is above peg in the future, plus an extra incentive for the longer they are held above peg. This amounts to inflation and sell pressure for **KDOLLAR** when it is above peg, helping to push it back toward 1 **BUSD**.
 
 ![KDOND - Kbond Token](.gitbook/assets/KBOND.png)
