@@ -25,9 +25,9 @@ Bomb Money’s multi-token protocol currently consists of the following four tok
 ![KDOLLAR - Kdollar Token](.gitbook/assets/KDOLLAR.png)
 
 * **KDOLLAR Shares ($KSHARE)** - **KDOLLAR** Shares (**KSHARE**) are one of the ways to measure the value of the **KDOLLAR** Protocol and shareholder trust in its ability to maintain **KDOLLAR** close to peg. During epoch expansions the protocol mints **KDOLLAR** and distributes it proportionally to all **KSHARE** holders who have staked their tokens in the Boardroom (Masonry ). **KSHARE** has a maximum total supply of 70000 tokens distributed as follows:&#x20;
-  1. Team Allocation: 7000 KSHARE vested linearly 12 months&#x20;
-  2. DEV Allocation: 2500 TSHARE vested linearly over 12 months&#x20;
-  3. Remaining 59500 TSHARE are allocated for incentivizing Liquidity Providers in two shares pools for 12 months
+  1. 65% - Liquidity Provision: 19,500 are allocated for incentivizing Liquidity Providers in Shares pools over 18 months
+  2. 20% - DAO: 6,000 vested over 18 months
+  3. 15% - Team Reserves: 4500 vested over 18 months
 
 ![KSHARE - Kshare Token](.gitbook/assets/KSHARE.png)
 
