@@ -2,7 +2,7 @@
 
 ### What are KBOND (Bonds)?
 
-Bonds are unique tokens that can be utilized to help stabilize KDOLLAR price around peg (1 KRONOS) by reducing circulating supply of KDOLLAR if the TWAP (time-weighted-average-price) goes below peg (1 KDOLLAR).
+Bonds are unique tokens that can be utilized to help stabilize KDOLLAR price around peg (1 BUSD) by reducing circulating supply of KDOLLAR if the TWAP (time-weighted-average-price) goes below peg (1 KDOLLAR).
 
 ### When can I buy KBOND (Bonds)?
 
@@ -32,8 +32,8 @@ The idea is to reward KBOND buyers for helping the protocol, while also protecti
 
 So after you buy KBOND using KDOLLAR, you get 2 possible ways to get your KDOLLAR back:
 
-1. Sell back your KBOND for KDOLLAR while peg is between 1 - 1.1 (1 KRONOS) with no redemption bonus. This to prevent instant dump after peg is recovered
-2. Sell back your KBOND for KDOLLAR while peg is above 1.1 (1KRONOS) with a bonus redemption rate
+1. Sell back your KBOND for KDOLLAR while peg is between 1 - 1.1 (1 BUSD) with no redemption bonus. This to prevent instant dump after peg is recovered
+2. Sell back your KBOND for KDOLLAR while peg is above 1.1 (1BUSD) with a bonus redemption rate
 
 The longer you hold, the more both the protocol and you benefit from Kbonds
 
